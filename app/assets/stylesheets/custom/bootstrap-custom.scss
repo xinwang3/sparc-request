@@ -488,9 +488,9 @@ form, .form {
 .nav {
   &.nav-tabs {
     .nav-link.active {
-      background: theme-color('primary');
+      background: theme-color('sbmred');
       color: white;
-      border-bottom: 1px solid theme-color('primary');
+      border-bottom: 1px solid theme-color('sbmred');
     }
 
     .nav-link:not(.active) {
@@ -852,4 +852,11 @@ a.text-white:hover {
   .sticky-top {
     top: 1rem !important;
   }
+}
+
+nav#stepsNav .nav-link.active.text-primary {
+    color: #227BA4 !important;
+}
+a.nav-link.d-flex.h-100.p-0.text-primary.active {
+    color: #227BA4 !important;
 }
