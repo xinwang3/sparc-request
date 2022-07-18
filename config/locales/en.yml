@@ -714,8 +714,8 @@ en:
         header: "About"
         about_sparc: "About SPARCRequest"
         about_sctr:
-          text: "About SCTR"
-          url: "http://sctr.musc.edu"
+          text: "About LINCATS"
+          url: "https://www.stonybrookmedicine.edu/LINCATS"
       links:
         header: "Useful Links"
         contact: "Contact Us"
