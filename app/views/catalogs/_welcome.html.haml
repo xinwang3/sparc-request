@@ -23,18 +23,17 @@
     = t('proper.catalog.center.header')
   %h1.text-muted.font-weight-light.pb-3.mb-3.border-bottom
     = t('proper.catalog.center.subheader')
-  %h5.font-weight-normal.mb-3
+  %h5.font-weight-normal.mb-3.text-left
     = raw t('proper.catalog.center.description').html_safe
-  %h5.font-weight-normal.mb-3.text-left.text-warning
+  %h5.font-weight-normal.mb-3.text-left
     = raw t('proper.catalog.center.cd2h_text').html_safe
   .jumbotron.mb-0
     %h3.mb-3
       = raw t('proper.catalog.center.text')
     .w-100.mb-3
       = link_to t('proper.catalog.center.dashboard_link'), dashboard_root_path, class: 'btn btn-lg btn-outline-primary'
-    %p.mb-0
-      %strong
-        = t('proper.catalog.center.notice')
+    %p.mb-0.text-left
+      = t('proper.catalog.center.notice')
 
 - if Setting.get_value('use_tableau') && Setting.get_value('homepage_tableau_url')
   = render 'catalogs/tableau'
