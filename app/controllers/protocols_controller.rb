@@ -43,7 +43,7 @@ class ProtocolsController < ApplicationController
       recent_protocol = Protocol.last
       # We have a duplicate situation and must delete (need to save the service request) 
       # the most recent protocol for the new one
-      if recent_protocol.service_requests.first.id == @protocol.service_requests.first.id
+      if recent_protocol and recent_protocol.service_requests.first.id == @protocol.service_requests.first.id
         recent_protocol.delete
       end
       @protocol.save
