@@ -230,7 +230,7 @@ en:
         sponsor_name: "Sponsor Name"
         start_date: "Start Date"
         study_type_questions: "Study Type Questions"
-        udak_project_number: "Financial Account (UDAK #)"
+        udak_project_number: "Financial Account (Awards #)"
         protocol_merge: "Merged Protocol ID(s)"
       protocol_filter:
         search_name: "Name"
